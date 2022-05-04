@@ -1,0 +1,166 @@
+-
+  description: '反例：部门未输入1'
+  data:
+#    order_dep: '001'
+    order_date: '<datetime.datetime.now().strftime("%Y-%m-%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: -1
+-
+  description: '反例：部门未输入2'
+  data:
+    order_dep: ''
+    order_date: '<datetime.datetime.now().strftime("%Y-%m-%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: -1
+-
+  description: '反例：不存在的部门'
+  data:
+    order_dep: '007'
+    order_date: '<datetime.datetime.now().strftime("%Y-%m-%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: -1
+-
+  description: '反例：非法的日期格式1'
+  data:
+    order_dep: '001'
+    order_date: '<datetime.datetime.now().strftime("%Y/%m/%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: 500001
+-
+  description: '反例：非法的日期格式2'
+  data:
+    order_dep: '001'
+    order_date: '<datetime.datetime.now().strftime("%Y年%m月%d日")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: 500001
+-
+  description: '反例：日期未输入'
+  data:
+    order_dep: '001'
+#    order_date: '<datetime.datetime.now().strftime("%Y年%m月%d日")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: -1
+-
+  description: '反例：日期未输入'
+  data:
+    order_dep: '001'
+    order_date: ''
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: 500001
+-
+  description: '反例：昨天的日期'
+  data:
+    order_dep: '001'
+    order_date: '<(datetime.date.today() + datetime.timedelta(days=-1)).strftime("%Y-%m-%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: 500001
+
+-
+  description: '反例：七天后的日期'
+  data:
+    order_dep: '001'
+    order_date: '<(datetime.date.today() + datetime.timedelta(days=7)).strftime("%Y-%m-%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: 500001
+-
+  description: '反例：前n天的日期'
+  data:
+    order_dep: '001'
+    order_date: '<(datetime.date.today() + datetime.timedelta(days=-5)).strftime("%Y-%m-%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: 500001
+-
+  description: '反例：今天之后n(n>7)天的日期'
+  data:
+    order_dep: '001'
+    order_date: '<(datetime.date.today() + datetime.timedelta(days=15)).strftime("%Y-%m-%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: 500001
+-
+  description: '反例：描述未录入'
+  data:
+    order_dep: '001'
+    order_date: '<datetime.datetime.now().strftime("%Y-%m-%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+#    order_desc: '描述信息'
+  assert:
+    code: -1
+-
+  description: '反例：描述未录入'
+  data:
+    order_dep: '001'
+    order_date: '<datetime.datetime.now().strftime("%Y-%m-%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: ''
+  assert:
+    code: -1
+-
+  description: '反例：描述超长'
+  data:
+    order_dep: '001'
+    order_date: '<datetime.datetime.now().strftime("%Y-%m-%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述'
+  assert:
+    code: -1
+-
+  description: '反例：非法字符'
+  data:
+    order_dep: '001'
+    order_date: '<datetime.datetime.now().strftime("%Y-%m-%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述包含&^%$#....<>'
+  assert:
+    code: -1

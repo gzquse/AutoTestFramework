@@ -1,0 +1,165 @@
+-
+  description: '部门测试'
+  data:
+    order_dep: '001'
+    order_date: '<datetime.datetime.now().strftime("%Y-%m-%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: 0
+-
+  description: '不同的部门测试'
+  data:
+    order_dep: '002'
+    order_date: '<datetime.datetime.now().strftime("%Y-%m-%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: 0
+-
+  description: '不同的部门测试'
+  data:
+    order_dep: '003'
+    order_date: '<datetime.datetime.now().strftime("%Y-%m-%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: 0
+-
+  description: '不同的部门测试'
+  data:
+    order_dep: '004'
+    order_date: '<datetime.datetime.now().strftime("%Y-%m-%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: 0
+-
+  description: '不同的部门测试'
+  data:
+    order_dep: '005'
+    order_date: '<datetime.datetime.now().strftime("%Y-%m-%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: 0
+-
+  description: '不同的部门测试'
+  data:
+    order_dep: '006'
+    order_date: '<datetime.datetime.now().strftime("%Y-%m-%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: 0
+-
+  description: '今天的日期'
+  data:
+    order_dep: '001'
+    order_date: '<datetime.datetime.now().strftime("%Y-%m-%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: 0
+-
+  description: '六天后的日期'
+  data:
+    order_dep: '001'
+    order_date: '<(datetime.date.today() + datetime.timedelta(days=6)).strftime("%Y-%m-%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: 0
+-
+  description: '抽样中间的日期'
+  data:
+    order_dep: '001'
+    order_date: '<(datetime.date.today() + datetime.timedelta(days=random.randint(1,5))).strftime("%Y-%m-%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: 0
+-
+  description: '名称4汉字'
+  data:
+    order_dep: '001'
+    order_date: '<datetime.datetime.now().strftime("%Y-%m-%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: 0
+-
+  description: '名称10汉字'
+  data:
+    order_dep: '001'
+    order_date: '<datetime.datetime.now().strftime("%Y-%m-%d")>'
+    order_name: '需求名字需求名字需求'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: 0
+-
+  description: '名称2-9个汉字'
+  data:
+    order_dep: '001'
+    order_date: '<datetime.datetime.now().strftime("%Y-%m-%d")>'
+    order_name: '需求名字需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: 0
+-
+  description: '类型新增'
+  data:
+    order_dep: '001'
+    order_date: '<datetime.datetime.now().strftime("%Y-%m-%d")>'
+    order_name: '需求名字需求名字'
+    order_sys: '关联sys'
+    order_type: 'new'
+    order_desc: '描述信息'
+  assert:
+    code: 0
+-
+  description: '类型 变更'
+  data:
+    order_dep: '001'
+    order_date: '<datetime.datetime.now().strftime("%Y-%m-%d")>'
+    order_name: '需求名字需求名字'
+    order_sys: '关联sys'
+    order_type: 'change'
+    order_desc: '描述信息'
+  assert:
+    code: 0
+-
+  description: '类型 优化'
+  data:
+    order_dep: '001'
+    order_date: '<datetime.datetime.now().strftime("%Y-%m-%d")>'
+    order_name: '需求名字需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: 0
