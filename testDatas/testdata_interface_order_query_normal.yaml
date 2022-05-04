@@ -1,0 +1,53 @@
+-
+  description: '正例查询'
+  data:
+    page: all
+    limit: 20
+    order_dep: '001'
+-
+  description: '正例查询'
+  data:
+    page: all
+    limit: 20
+    order_dep: '002'
+-
+  description: '正例查询'
+  data:
+    page: all
+    limit: 20
+    order_date: '2022-05-04'
+-
+  description: '正例查询'
+  data:
+    page: all
+    limit: 20
+    order_type: 'new'
+-
+  description: '正例查询'
+  data:
+    page: all
+    limit: 20
+    order_type: 'change'
+-
+  description: '正例查询'
+  data:
+    page: all
+    limit: 20
+    order_type: 'upper'
+-
+  description: '正例查询:limit 30'
+  data:
+    page: all
+    limit: 30
+    order_dep: '001'
+-
+  description: '正例查询:limit 50'
+  data:
+    page: all
+    limit: 50
+    order_dep: '001'
+-
+  description: '正例查询:limit 100'
+  data:
+    page: all
+    limit: 100

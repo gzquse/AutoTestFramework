@@ -4,7 +4,7 @@
   关键字驱动方法的类
 作者：Sniper.ZH
 """
-import json
+import json as json_lib
 
 import requests
 import commons.Config as config
@@ -12,11 +12,12 @@ from commons.Logger import logger
 import jsonpath
 
 
-def do_post(path, data, create_session=False, session=None):
+def do_post(path, data=None, json=None, create_session=False, session=None):
     print("post requests:")
-    print("请求参数:", data)
+    params = data if data is not None else json
+    print("请求参数:", params)
     logger.info("请求参数")
-    logger.info(data)
+    logger.info(params)
 
     if create_session and session:
         raise ValueError("create_session和session不能同时使用.")
@@ -28,14 +29,14 @@ def do_post(path, data, create_session=False, session=None):
     else:
         req = requests
 
-    res = req.post(config.get_config('options.url') + path, data=data)
+    res = req.post(config.get_config('options.url') + path, data=data, json=json)
     print(res.status_code)
     logger.info("响应码: " + str(res.status_code))
 
     # 输出相应结果
     contentType = res.headers.get('Content-Type')
     if contentType == 'application/json':
-        resContext = json.dumps(res.json(), indent=2, ensure_ascii=False)
+        resContext = json_lib.dumps(res.json(), indent=2, ensure_ascii=False)
     elif contentType == "text/html":
         resContext = res.text[:1000]
     else:

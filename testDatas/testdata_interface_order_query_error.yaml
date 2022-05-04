@@ -1,0 +1,16 @@
+-
+  description: '反例：错误的类型'
+  data:
+    page: 1
+    limit: 20
+    order_type: 'abc'
+  assert:
+    code: 500001
+-
+  description: '反例：错误的日期类型'
+  data:
+    page: 1
+    limit: 20
+    order_date: '2021/09/03'
+  assert:
+    code: 500002

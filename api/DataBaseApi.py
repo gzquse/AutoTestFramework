@@ -13,10 +13,11 @@ from commons.Logger import logger
 class DataBaseApi:
     def __init__(self):
         self.conn = pymysql.connect(
-            config.get_config('database.host'),
-            config.get_config('database.user'),
-            config.get_config('database.pass'),
-            config.get_config('database.dbname'),
+            host=config.get_config('database.host'),
+            user=config.get_config('database.user'),
+            password=config.get_config('database.pass'),
+            db=config.get_config('database.dbname'),
+            charset="utf8mb4",
         )
 
     def queryMaxId(self):
