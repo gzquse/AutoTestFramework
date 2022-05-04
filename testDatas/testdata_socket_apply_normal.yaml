@@ -1,0 +1,22 @@
+-
+  description: '部门测试'
+  data:
+    order_dep: '001'
+    order_date: '<datetime.datetime.now().strftime("%Y-%m-%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: '000000'
+-
+  description: '不同的部门测试'
+  data:
+    order_dep: '002'
+    order_date: '<datetime.datetime.now().strftime("%Y-%m-%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    code: '000000'

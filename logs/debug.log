@@ -1,0 +1,2213 @@
+2022-05-04 16:05:10|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:10|INFO|KeywordApi.py:22|{'username': 'admin', 'pwd': '123456', 'randomCode': '1234'}
+2022-05-04 16:05:10|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:10|INFO|KeywordApi.py:49|{
+  "code": 0
+}
+2022-05-04 16:05:10|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:10|INFO|Decor.py:25|applyInterfaceTestCase反例：部门未输入1...begin...
+2022-05-04 16:05:10|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:10|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:10|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:10|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:10|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:10|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:10|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:10|INFO|KeywordApi.py:22|{'order_date': '2022-05-04', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:10|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:10|INFO|KeywordApi.py:49|{
+  "code": -1,
+  "msg": "'order_dep'"
+}
+2022-05-04 16:05:10|INFO|Decor.py:44|applyInterfaceTestCase反例：部门未输入1...end...
+2022-05-04 16:05:10|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:10|INFO|Decor.py:25|applyInterfaceTestCase反例：部门未输入2...begin...
+2022-05-04 16:05:10|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:10|INFO|Decor.py:40|order_dep : 
+2022-05-04 16:05:10|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:10|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:10|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:10|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:10|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:10|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:10|INFO|KeywordApi.py:22|{'order_dep': '', 'order_date': '2022-05-04', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:10|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:10|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "order_id": 318
+}
+2022-05-04 16:05:10|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:10|INFO|Decor.py:25|applyInterfaceTestCase反例：不存在的部门...begin...
+2022-05-04 16:05:10|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:10|INFO|Decor.py:40|order_dep : 007
+2022-05-04 16:05:10|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:10|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:10|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:10|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:10|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:10|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:10|INFO|KeywordApi.py:22|{'order_dep': '007', 'order_date': '2022-05-04', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:10|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:10|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "order_id": 319
+}
+2022-05-04 16:05:10|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:10|INFO|Decor.py:25|applyInterfaceTestCase反例：非法的日期格式1...begin...
+2022-05-04 16:05:10|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:10|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:10|INFO|Decor.py:40|order_date : 2022/05/04
+2022-05-04 16:05:10|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:10|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:10|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:10|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:10|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:10|INFO|KeywordApi.py:22|{'order_dep': '001', 'order_date': '2022/05/04', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:10|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:10|INFO|KeywordApi.py:49|{
+  "code": 500001,
+  "msg": "日期不在允许范围内"
+}
+2022-05-04 16:05:10|INFO|Decor.py:44|applyInterfaceTestCase反例：非法的日期格式1...end...
+2022-05-04 16:05:10|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:10|INFO|Decor.py:25|applyInterfaceTestCase反例：非法的日期格式2...begin...
+2022-05-04 16:05:10|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:10|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:10|INFO|Decor.py:40|order_date : 2022年05月04日
+2022-05-04 16:05:10|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:10|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:10|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:10|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:10|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:10|INFO|KeywordApi.py:22|{'order_dep': '001', 'order_date': '2022年05月04日', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:10|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:10|INFO|KeywordApi.py:49|{
+  "code": 500001,
+  "msg": "日期不在允许范围内"
+}
+2022-05-04 16:05:10|INFO|Decor.py:44|applyInterfaceTestCase反例：非法的日期格式2...end...
+2022-05-04 16:05:10|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:10|INFO|Decor.py:25|applyInterfaceTestCase反例：日期未输入...begin...
+2022-05-04 16:05:10|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:10|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:10|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:10|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:10|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:10|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:10|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:10|INFO|KeywordApi.py:22|{'order_dep': '001', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:10|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:10|INFO|KeywordApi.py:49|{
+  "code": -1,
+  "msg": "'order_date'"
+}
+2022-05-04 16:05:10|INFO|Decor.py:44|applyInterfaceTestCase反例：日期未输入...end...
+2022-05-04 16:05:10|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:10|INFO|Decor.py:25|applyInterfaceTestCase反例：日期未输入...begin...
+2022-05-04 16:05:10|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:10|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:10|INFO|Decor.py:40|order_date : 
+2022-05-04 16:05:10|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:10|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:10|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:10|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:10|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:10|INFO|KeywordApi.py:22|{'order_dep': '001', 'order_date': '', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:10|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:10|INFO|KeywordApi.py:49|{
+  "code": 500001,
+  "msg": "日期不在允许范围内"
+}
+2022-05-04 16:05:10|INFO|Decor.py:44|applyInterfaceTestCase反例：日期未输入...end...
+2022-05-04 16:05:10|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:10|INFO|Decor.py:25|applyInterfaceTestCase反例：昨天的日期...begin...
+2022-05-04 16:05:10|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:10|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:10|INFO|Decor.py:40|order_date : 2022-05-03
+2022-05-04 16:05:10|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:10|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:10|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:10|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:10|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:10|INFO|KeywordApi.py:22|{'order_dep': '001', 'order_date': '2022-05-03', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:10|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:10|INFO|KeywordApi.py:49|{
+  "code": 500001,
+  "msg": "日期不在允许范围内"
+}
+2022-05-04 16:05:10|INFO|Decor.py:44|applyInterfaceTestCase反例：昨天的日期...end...
+2022-05-04 16:05:10|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:10|INFO|Decor.py:25|applyInterfaceTestCase反例：七天后的日期...begin...
+2022-05-04 16:05:10|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:10|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:10|INFO|Decor.py:40|order_date : 2022-05-11
+2022-05-04 16:05:10|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:10|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:10|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:10|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:10|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:10|INFO|KeywordApi.py:22|{'order_dep': '001', 'order_date': '2022-05-11', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:10|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:10|INFO|KeywordApi.py:49|{
+  "code": 500001,
+  "msg": "日期不在允许范围内"
+}
+2022-05-04 16:05:10|INFO|Decor.py:44|applyInterfaceTestCase反例：七天后的日期...end...
+2022-05-04 16:05:10|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:10|INFO|Decor.py:25|applyInterfaceTestCase反例：前n天的日期...begin...
+2022-05-04 16:05:10|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:10|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:10|INFO|Decor.py:40|order_date : 2022-04-29
+2022-05-04 16:05:10|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:10|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:10|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:10|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:10|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:10|INFO|KeywordApi.py:22|{'order_dep': '001', 'order_date': '2022-04-29', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:10|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:10|INFO|KeywordApi.py:49|{
+  "code": 500001,
+  "msg": "日期不在允许范围内"
+}
+2022-05-04 16:05:10|INFO|Decor.py:44|applyInterfaceTestCase反例：前n天的日期...end...
+2022-05-04 16:05:10|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:10|INFO|Decor.py:25|applyInterfaceTestCase反例：今天之后n(n>7)天的日期...begin...
+2022-05-04 16:05:10|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:10|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:10|INFO|Decor.py:40|order_date : 2022-05-19
+2022-05-04 16:05:10|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:10|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:10|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:10|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:10|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:10|INFO|KeywordApi.py:22|{'order_dep': '001', 'order_date': '2022-05-19', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:10|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:10|INFO|KeywordApi.py:49|{
+  "code": 500001,
+  "msg": "日期不在允许范围内"
+}
+2022-05-04 16:05:10|INFO|Decor.py:44|applyInterfaceTestCase反例：今天之后n(n>7)天的日期...end...
+2022-05-04 16:05:10|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:10|INFO|Decor.py:25|applyInterfaceTestCase反例：描述未录入...begin...
+2022-05-04 16:05:10|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:10|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:10|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:10|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:10|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:10|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:10|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:10|INFO|KeywordApi.py:22|{'order_dep': '001', 'order_date': '2022-05-04', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper'}
+2022-05-04 16:05:10|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:10|INFO|KeywordApi.py:49|{
+  "code": -1,
+  "msg": "'order_desc'"
+}
+2022-05-04 16:05:10|INFO|Decor.py:44|applyInterfaceTestCase反例：描述未录入...end...
+2022-05-04 16:05:10|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:10|INFO|Decor.py:25|applyInterfaceTestCase反例：描述未录入...begin...
+2022-05-04 16:05:10|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:10|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:10|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:10|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:10|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:10|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:10|INFO|Decor.py:40|order_desc : 
+2022-05-04 16:05:10|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:10|INFO|KeywordApi.py:22|{'order_dep': '001', 'order_date': '2022-05-04', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': ''}
+2022-05-04 16:05:11|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:11|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "order_id": 320
+}
+2022-05-04 16:05:11|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:11|INFO|Decor.py:25|applyInterfaceTestCase反例：描述超长...begin...
+2022-05-04 16:05:11|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:11|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:11|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:11|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:11|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:11|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:11|INFO|Decor.py:40|order_desc : 这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述
+2022-05-04 16:05:11|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:11|INFO|KeywordApi.py:22|{'order_dep': '001', 'order_date': '2022-05-04', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述'}
+2022-05-04 16:05:11|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:11|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "order_id": 321
+}
+2022-05-04 16:05:11|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:11|INFO|Decor.py:25|applyInterfaceTestCase反例：非法字符...begin...
+2022-05-04 16:05:11|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:11|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:11|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:11|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:11|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:11|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:11|INFO|Decor.py:40|order_desc : 描述包含&^%$#....<>
+2022-05-04 16:05:11|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:11|INFO|KeywordApi.py:22|{'order_dep': '001', 'order_date': '2022-05-04', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述包含&^%$#....<>'}
+2022-05-04 16:05:11|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:11|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "order_id": 322
+}
+2022-05-04 16:05:11|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:11|INFO|Decor.py:25|applyInterfaceTestCase部门测试...begin...
+2022-05-04 16:05:11|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:11|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:11|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:11|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:11|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:11|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:11|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:11|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:11|INFO|KeywordApi.py:22|{'order_dep': '001', 'order_date': '2022-05-04', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:11|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:11|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "order_id": 323
+}
+2022-05-04 16:05:11|INFO|Decor.py:44|applyInterfaceTestCase部门测试...end...
+2022-05-04 16:05:11|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:11|INFO|Decor.py:25|applyInterfaceTestCase不同的部门测试...begin...
+2022-05-04 16:05:11|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:11|INFO|Decor.py:40|order_dep : 002
+2022-05-04 16:05:11|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:11|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:11|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:11|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:11|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:11|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:11|INFO|KeywordApi.py:22|{'order_dep': '002', 'order_date': '2022-05-04', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:11|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:11|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "order_id": 324
+}
+2022-05-04 16:05:11|INFO|Decor.py:44|applyInterfaceTestCase不同的部门测试...end...
+2022-05-04 16:05:11|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:11|INFO|Decor.py:25|applyInterfaceTestCase不同的部门测试...begin...
+2022-05-04 16:05:11|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:11|INFO|Decor.py:40|order_dep : 003
+2022-05-04 16:05:11|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:11|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:11|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:11|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:11|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:11|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:11|INFO|KeywordApi.py:22|{'order_dep': '003', 'order_date': '2022-05-04', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:11|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:11|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "order_id": 325
+}
+2022-05-04 16:05:11|INFO|Decor.py:44|applyInterfaceTestCase不同的部门测试...end...
+2022-05-04 16:05:11|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:11|INFO|Decor.py:25|applyInterfaceTestCase不同的部门测试...begin...
+2022-05-04 16:05:11|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:11|INFO|Decor.py:40|order_dep : 004
+2022-05-04 16:05:11|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:11|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:11|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:11|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:11|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:11|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:11|INFO|KeywordApi.py:22|{'order_dep': '004', 'order_date': '2022-05-04', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:11|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:11|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "order_id": 326
+}
+2022-05-04 16:05:11|INFO|Decor.py:44|applyInterfaceTestCase不同的部门测试...end...
+2022-05-04 16:05:11|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:11|INFO|Decor.py:25|applyInterfaceTestCase不同的部门测试...begin...
+2022-05-04 16:05:11|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:11|INFO|Decor.py:40|order_dep : 005
+2022-05-04 16:05:11|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:11|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:11|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:11|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:11|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:11|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:11|INFO|KeywordApi.py:22|{'order_dep': '005', 'order_date': '2022-05-04', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:11|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:11|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "order_id": 327
+}
+2022-05-04 16:05:11|INFO|Decor.py:44|applyInterfaceTestCase不同的部门测试...end...
+2022-05-04 16:05:11|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:11|INFO|Decor.py:25|applyInterfaceTestCase不同的部门测试...begin...
+2022-05-04 16:05:11|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:11|INFO|Decor.py:40|order_dep : 006
+2022-05-04 16:05:11|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:11|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:11|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:11|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:11|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:11|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:11|INFO|KeywordApi.py:22|{'order_dep': '006', 'order_date': '2022-05-04', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:11|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:11|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "order_id": 328
+}
+2022-05-04 16:05:11|INFO|Decor.py:44|applyInterfaceTestCase不同的部门测试...end...
+2022-05-04 16:05:11|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:11|INFO|Decor.py:25|applyInterfaceTestCase今天的日期...begin...
+2022-05-04 16:05:11|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:11|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:11|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:11|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:11|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:11|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:11|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:11|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:11|INFO|KeywordApi.py:22|{'order_dep': '001', 'order_date': '2022-05-04', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:11|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:11|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "order_id": 329
+}
+2022-05-04 16:05:11|INFO|Decor.py:44|applyInterfaceTestCase今天的日期...end...
+2022-05-04 16:05:11|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:11|INFO|Decor.py:25|applyInterfaceTestCase六天后的日期...begin...
+2022-05-04 16:05:11|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:11|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:11|INFO|Decor.py:40|order_date : 2022-05-10
+2022-05-04 16:05:11|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:11|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:11|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:11|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:11|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:11|INFO|KeywordApi.py:22|{'order_dep': '001', 'order_date': '2022-05-10', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:11|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:11|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "order_id": 330
+}
+2022-05-04 16:05:11|INFO|Decor.py:44|applyInterfaceTestCase六天后的日期...end...
+2022-05-04 16:05:11|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:11|INFO|Decor.py:25|applyInterfaceTestCase抽样中间的日期...begin...
+2022-05-04 16:05:11|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:11|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:11|INFO|Decor.py:40|order_date : 2022-05-08
+2022-05-04 16:05:11|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:11|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:11|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:11|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:11|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:11|INFO|KeywordApi.py:22|{'order_dep': '001', 'order_date': '2022-05-08', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:11|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:11|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "order_id": 331
+}
+2022-05-04 16:05:11|INFO|Decor.py:44|applyInterfaceTestCase抽样中间的日期...end...
+2022-05-04 16:05:11|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:11|INFO|Decor.py:25|applyInterfaceTestCase名称4汉字...begin...
+2022-05-04 16:05:11|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:11|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:11|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:11|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:11|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:11|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:11|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:11|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:11|INFO|KeywordApi.py:22|{'order_dep': '001', 'order_date': '2022-05-04', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:11|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:11|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "order_id": 332
+}
+2022-05-04 16:05:11|INFO|Decor.py:44|applyInterfaceTestCase名称4汉字...end...
+2022-05-04 16:05:11|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:11|INFO|Decor.py:25|applyInterfaceTestCase名称10汉字...begin...
+2022-05-04 16:05:11|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:11|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:11|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:11|INFO|Decor.py:40|order_name : 需求名字需求名字需求
+2022-05-04 16:05:11|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:11|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:11|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:11|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:11|INFO|KeywordApi.py:22|{'order_dep': '001', 'order_date': '2022-05-04', 'order_name': '需求名字需求名字需求', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:11|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:11|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "order_id": 333
+}
+2022-05-04 16:05:11|INFO|Decor.py:44|applyInterfaceTestCase名称10汉字...end...
+2022-05-04 16:05:11|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:11|INFO|Decor.py:25|applyInterfaceTestCase名称2-9个汉字...begin...
+2022-05-04 16:05:11|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:11|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:11|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:11|INFO|Decor.py:40|order_name : 需求名字需求名字
+2022-05-04 16:05:11|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:11|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:11|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:11|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:11|INFO|KeywordApi.py:22|{'order_dep': '001', 'order_date': '2022-05-04', 'order_name': '需求名字需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:11|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:11|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "order_id": 334
+}
+2022-05-04 16:05:11|INFO|Decor.py:44|applyInterfaceTestCase名称2-9个汉字...end...
+2022-05-04 16:05:11|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:11|INFO|Decor.py:25|applyInterfaceTestCase类型新增...begin...
+2022-05-04 16:05:11|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:11|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:11|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:11|INFO|Decor.py:40|order_name : 需求名字需求名字
+2022-05-04 16:05:11|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:11|INFO|Decor.py:40|order_type : new
+2022-05-04 16:05:11|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:11|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:11|INFO|KeywordApi.py:22|{'order_dep': '001', 'order_date': '2022-05-04', 'order_name': '需求名字需求名字', 'order_sys': '关联sys', 'order_type': 'new', 'order_desc': '描述信息'}
+2022-05-04 16:05:11|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:11|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "order_id": 335
+}
+2022-05-04 16:05:11|INFO|Decor.py:44|applyInterfaceTestCase类型新增...end...
+2022-05-04 16:05:11|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:11|INFO|Decor.py:25|applyInterfaceTestCase类型 变更...begin...
+2022-05-04 16:05:11|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:11|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:11|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:11|INFO|Decor.py:40|order_name : 需求名字需求名字
+2022-05-04 16:05:11|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:11|INFO|Decor.py:40|order_type : change
+2022-05-04 16:05:11|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:11|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:11|INFO|KeywordApi.py:22|{'order_dep': '001', 'order_date': '2022-05-04', 'order_name': '需求名字需求名字', 'order_sys': '关联sys', 'order_type': 'change', 'order_desc': '描述信息'}
+2022-05-04 16:05:11|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:11|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "order_id": 336
+}
+2022-05-04 16:05:11|INFO|Decor.py:44|applyInterfaceTestCase类型 变更...end...
+2022-05-04 16:05:11|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:11|INFO|Decor.py:25|applyInterfaceTestCase类型 优化...begin...
+2022-05-04 16:05:11|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:11|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:11|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:11|INFO|Decor.py:40|order_name : 需求名字需求名字
+2022-05-04 16:05:11|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:11|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:11|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:11|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:11|INFO|KeywordApi.py:22|{'order_dep': '001', 'order_date': '2022-05-04', 'order_name': '需求名字需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:11|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:11|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "order_id": 337
+}
+2022-05-04 16:05:11|INFO|Decor.py:44|applyInterfaceTestCase类型 优化...end...
+2022-05-04 16:05:11|INFO|DataBaseApi.py:37|数据清理完成.
+2022-05-04 16:05:11|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:11|INFO|Decor.py:25|loginInterfaceTestCase正例...begin...
+2022-05-04 16:05:11|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:11|INFO|Decor.py:40|username : admin
+2022-05-04 16:05:11|INFO|Decor.py:40|pwd : 123456
+2022-05-04 16:05:11|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:11|INFO|KeywordApi.py:22|{'username': 'admin', 'pwd': '123456'}
+2022-05-04 16:05:11|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:11|INFO|KeywordApi.py:49|{
+  "code": 0
+}
+2022-05-04 16:05:11|INFO|testcase_interface_login.py:33|<class 'str'>
+2022-05-04 16:05:11|INFO|Decor.py:44|loginInterfaceTestCase正例...end...
+2022-05-04 16:05:11|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:11|INFO|Decor.py:25|loginInterfaceTestCase正例2...begin...
+2022-05-04 16:05:11|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:11|INFO|Decor.py:40|username : sniper
+2022-05-04 16:05:11|INFO|Decor.py:40|pwd : 111111
+2022-05-04 16:05:11|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:11|INFO|KeywordApi.py:22|{'username': 'sniper', 'pwd': '111111'}
+2022-05-04 16:05:12|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:12|INFO|KeywordApi.py:49|{
+  "code": 0
+}
+2022-05-04 16:05:12|INFO|testcase_interface_login.py:33|<class 'str'>
+2022-05-04 16:05:12|INFO|Decor.py:44|loginInterfaceTestCase正例2...end...
+2022-05-04 16:05:12|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:12|INFO|Decor.py:25|loginInterfaceTestCase反例：错误的用户名或密码...begin...
+2022-05-04 16:05:12|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:12|INFO|Decor.py:40|username : sniper
+2022-05-04 16:05:12|INFO|Decor.py:40|pwd : 123
+2022-05-04 16:05:12|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:12|INFO|KeywordApi.py:22|{'username': 'sniper', 'pwd': '123'}
+2022-05-04 16:05:12|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:12|INFO|KeywordApi.py:49|{
+  "code": 11,
+  "msg": "用户名或密码错误"
+}
+2022-05-04 16:05:12|INFO|testcase_interface_login.py:33|<class 'str'>
+2022-05-04 16:05:12|INFO|Decor.py:44|loginInterfaceTestCase反例：错误的用户名或密码...end...
+2022-05-04 16:05:12|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:12|INFO|KeywordApi.py:22|{'username': 'admin', 'pwd': '123456', 'randomCode': '1234'}
+2022-05-04 16:05:12|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:12|INFO|KeywordApi.py:49|{
+  "code": 0
+}
+2022-05-04 16:05:12|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:12|INFO|Decor.py:25|applyInterfaceTestCase网页展示内容测试...begin...
+2022-05-04 16:05:12|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:12|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:12|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:12|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:12|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:12|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:12|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:12|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:12|INFO|KeywordApi.py:22|{'order_dep': '001', 'order_date': '2022-05-04', 'order_name': '需求名字', 'order_sys': '关联sys', 'order_type': 'upper', 'order_desc': '描述信息'}
+2022-05-04 16:05:12|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:12|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "order_id": 338
+}
+2022-05-04 16:05:12|INFO|KeywordApi.py:59|请求参数
+2022-05-04 16:05:12|INFO|KeywordApi.py:60|{'oid': 338}
+2022-05-04 16:05:12|INFO|KeywordApi.py:74|响应码: 200
+2022-05-04 16:05:12|INFO|KeywordApi.py:78|text/html; charset=utf-8
+2022-05-04 16:05:12|INFO|KeywordApi.py:88|<!DOCTYPE html>
+<html>
+<head>
+    
+    <link rel="shortcut icon" href="/static/images/favicon.ico" type="image/x-icon" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>需求详情</title>
+    <link rel="stylesheet" href="/static/layui/css/layui.css">
+    <script type="text/javascript" src="/static/layui/layui.js"></script>
+    <script type="text/javascript" src="/static/js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="/static/js/orderInfo.js"></script>
+    <style type="text/css">
+    </style>
+</head>
+<body class="layui-layout-body" style="padding:5px 15px;">
+  <fieldset class="layui-elem-field">
+    <legend>需求详情</legend>
+    <div class="layui-field-box">
+      <div class="layui-form-item">
+        <label class="layui-form-label">需求ID</label>
+        <div class="layui-form-mid layui-word-aux" style="width:80px;">338</div>
+        <label class="layui-form-label">需求名称</label>
+        <div c
+2022-05-04 16:05:12|INFO|DataBaseApi.py:37|数据清理完成.
+2022-05-04 16:05:12|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:12|INFO|Decor.py:25|OrderQueryTestCast反例：错误的类型...begin...
+2022-05-04 16:05:12|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:12|INFO|Decor.py:40|page : 1
+2022-05-04 16:05:12|INFO|Decor.py:40|limit : 20
+2022-05-04 16:05:12|INFO|Decor.py:40|order_type : abc
+2022-05-04 16:05:12|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:12|INFO|KeywordApi.py:22|{'page': 1, 'limit': 20, 'order_type': 'abc'}
+2022-05-04 16:05:12|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:12|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "msg": "查询成功",
+  "count": 0,
+  "data": []
+}
+2022-05-04 16:05:12|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:12|INFO|Decor.py:25|OrderQueryTestCast反例：错误的日期类型...begin...
+2022-05-04 16:05:12|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:12|INFO|Decor.py:40|page : 1
+2022-05-04 16:05:12|INFO|Decor.py:40|limit : 20
+2022-05-04 16:05:12|INFO|Decor.py:40|order_date : 2021/09/03
+2022-05-04 16:05:12|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:12|INFO|KeywordApi.py:22|{'page': 1, 'limit': 20, 'order_date': '2021/09/03'}
+2022-05-04 16:05:12|INFO|KeywordApi.py:36|响应码: 500
+2022-05-04 16:05:12|INFO|KeywordApi.py:49|<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <title>ValidationError
+          at /orderQueryApi/</title>
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background-color:#fff; color:#000; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; }
+    h2 { margin-bottom:.8em; }
+    h3 { margin:1em 0 .5em 0; }
+    h4 { margin:0 0 .5em 0; font-weight: normal; }
+    code, pre { font-size: 100%; white-space: pre-wrap; }
+    table { border:1px solid #ccc; border-collapse: collapse; width:100%; background:white; }
+    tbody td, tbody th { vertical-align:top; padding:2px 3px; }
+    thead th {
+      padding:1px 6px 1px 3px; background:#fefefe; text-align:left;
+      font-weight:normal; font-size:11px; border:1px solid #ddd;
+    }
+    tbody th { width:12
+2022-05-04 16:05:12|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:12|INFO|Decor.py:25|OrderQueryTestCast正例查询...begin...
+2022-05-04 16:05:12|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:12|INFO|Decor.py:40|page : all
+2022-05-04 16:05:12|INFO|Decor.py:40|limit : 20
+2022-05-04 16:05:12|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:12|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:12|INFO|KeywordApi.py:22|{'page': 1, 'limit': 20, 'order_dep': '001'}
+2022-05-04 16:05:12|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:12|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "msg": "查询成功",
+  "count": 20,
+  "data": [
+    {
+      "id": 287,
+      "name": "增加需求修改功能",
+      "type": "change",
+      "dep": "001",
+      "date": "2022-03-24",
+      "system": "refersys",
+      "desc": "test",
+      "status": "0"
+    },
+    {
+      "id": 288,
+      "name": "555",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-05",
+      "system": "111",
+      "desc": "123",
+      "status": "0"
+    },
+    {
+      "id": 289,
+      "name": "555",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-05",
+      "system": "111",
+      "desc": "123",
+      "status": "0"
+    },
+    {
+      "id": 290,
+      "name": "555",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-05",
+      "system": "111",
+      "desc": "123",
+      "status": "0"
+    },
+    {
+      "id": 291,
+      "name": "121241",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-28",
+      "system": "",
+      "desc": "wefwe",
+      "status": "0"
+    },
+    {
+      "id": 292,
+      "name": "121241",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-28",
+      "system": "关联系统",
+      "desc": "wefwe",
+      "status": "0"
+    },
+    {
+      "id": 293,
+      "name": "121241",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-28",
+      "system": "关联系统",
+      "desc": "wefwe",
+      "status": "0"
+    },
+    {
+      "id": 296,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "",
+      "status": "0"
+    },
+    {
+      "id": 297,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述",
+      "status": "0"
+    },
+    {
+      "id": 298,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述包含&^%$#....<>",
+      "status": "0"
+    },
+    {
+      "id": 299,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 305,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 306,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-10",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 307,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-06",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 308,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 309,
+      "name": "需求名字需求名字需求",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 310,
+      "name": "需求名字需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 311,
+      "name": "需求名字需求名字",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 312,
+      "name": "需求名字需求名字",
+      "type": "change",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 313,
+      "name": "需求名字需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    }
+  ]
+}
+2022-05-04 16:05:12|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:12|INFO|KeywordApi.py:22|{'page': 2, 'limit': 20, 'order_dep': '001'}
+2022-05-04 16:05:12|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:12|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "msg": "查询成功",
+  "count": 20,
+  "data": []
+}
+2022-05-04 16:05:12|INFO|Decor.py:44|OrderQueryTestCast正例查询...end...
+2022-05-04 16:05:12|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:12|INFO|Decor.py:25|OrderQueryTestCast正例查询...begin...
+2022-05-04 16:05:12|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:12|INFO|Decor.py:40|page : all
+2022-05-04 16:05:12|INFO|Decor.py:40|limit : 20
+2022-05-04 16:05:12|INFO|Decor.py:40|order_dep : 002
+2022-05-04 16:05:12|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:12|INFO|KeywordApi.py:22|{'page': 1, 'limit': 20, 'order_dep': '002'}
+2022-05-04 16:05:12|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:12|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "msg": "查询成功",
+  "count": 1,
+  "data": [
+    {
+      "id": 300,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "002",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    }
+  ]
+}
+2022-05-04 16:05:12|INFO|Decor.py:44|OrderQueryTestCast正例查询...end...
+2022-05-04 16:05:12|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:12|INFO|Decor.py:25|OrderQueryTestCast正例查询...begin...
+2022-05-04 16:05:12|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:12|INFO|Decor.py:40|page : all
+2022-05-04 16:05:12|INFO|Decor.py:40|limit : 20
+2022-05-04 16:05:12|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:12|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:12|INFO|KeywordApi.py:22|{'page': 1, 'limit': 20, 'order_date': '2022-05-04'}
+2022-05-04 16:05:12|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:12|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "msg": "查询成功",
+  "count": 18,
+  "data": [
+    {
+      "id": 294,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 295,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "007",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 296,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "",
+      "status": "0"
+    },
+    {
+      "id": 297,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述",
+      "status": "0"
+    },
+    {
+      "id": 298,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述包含&^%$#....<>",
+      "status": "0"
+    },
+    {
+      "id": 299,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 300,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "002",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 301,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "003",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 302,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "004",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 303,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "005",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 304,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "006",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 305,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 308,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 309,
+      "name": "需求名字需求名字需求",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 310,
+      "name": "需求名字需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 311,
+      "name": "需求名字需求名字",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 312,
+      "name": "需求名字需求名字",
+      "type": "change",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 313,
+      "name": "需求名字需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    }
+  ]
+}
+2022-05-04 16:05:12|INFO|Decor.py:44|OrderQueryTestCast正例查询...end...
+2022-05-04 16:05:12|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:12|INFO|Decor.py:25|OrderQueryTestCast正例查询...begin...
+2022-05-04 16:05:12|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:12|INFO|Decor.py:40|page : all
+2022-05-04 16:05:12|INFO|Decor.py:40|limit : 20
+2022-05-04 16:05:12|INFO|Decor.py:40|order_type : new
+2022-05-04 16:05:12|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:12|INFO|KeywordApi.py:22|{'page': 1, 'limit': 20, 'order_type': 'new'}
+2022-05-04 16:05:12|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:12|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "msg": "查询成功",
+  "count": 7,
+  "data": [
+    {
+      "id": 288,
+      "name": "555",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-05",
+      "system": "111",
+      "desc": "123",
+      "status": "0"
+    },
+    {
+      "id": 289,
+      "name": "555",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-05",
+      "system": "111",
+      "desc": "123",
+      "status": "0"
+    },
+    {
+      "id": 290,
+      "name": "555",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-05",
+      "system": "111",
+      "desc": "123",
+      "status": "0"
+    },
+    {
+      "id": 291,
+      "name": "121241",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-28",
+      "system": "",
+      "desc": "wefwe",
+      "status": "0"
+    },
+    {
+      "id": 292,
+      "name": "121241",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-28",
+      "system": "关联系统",
+      "desc": "wefwe",
+      "status": "0"
+    },
+    {
+      "id": 293,
+      "name": "121241",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-28",
+      "system": "关联系统",
+      "desc": "wefwe",
+      "status": "0"
+    },
+    {
+      "id": 311,
+      "name": "需求名字需求名字",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    }
+  ]
+}
+2022-05-04 16:05:12|INFO|Decor.py:44|OrderQueryTestCast正例查询...end...
+2022-05-04 16:05:12|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:12|INFO|Decor.py:25|OrderQueryTestCast正例查询...begin...
+2022-05-04 16:05:12|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:12|INFO|Decor.py:40|page : all
+2022-05-04 16:05:12|INFO|Decor.py:40|limit : 20
+2022-05-04 16:05:12|INFO|Decor.py:40|order_type : change
+2022-05-04 16:05:12|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:12|INFO|KeywordApi.py:22|{'page': 1, 'limit': 20, 'order_type': 'change'}
+2022-05-04 16:05:12|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:12|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "msg": "查询成功",
+  "count": 2,
+  "data": [
+    {
+      "id": 287,
+      "name": "增加需求修改功能",
+      "type": "change",
+      "dep": "001",
+      "date": "2022-03-24",
+      "system": "refersys",
+      "desc": "test",
+      "status": "0"
+    },
+    {
+      "id": 312,
+      "name": "需求名字需求名字",
+      "type": "change",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    }
+  ]
+}
+2022-05-04 16:05:12|INFO|Decor.py:44|OrderQueryTestCast正例查询...end...
+2022-05-04 16:05:12|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:12|INFO|Decor.py:25|OrderQueryTestCast正例查询...begin...
+2022-05-04 16:05:12|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:12|INFO|Decor.py:40|page : all
+2022-05-04 16:05:12|INFO|Decor.py:40|limit : 20
+2022-05-04 16:05:12|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:12|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:12|INFO|KeywordApi.py:22|{'page': 1, 'limit': 20, 'order_type': 'upper'}
+2022-05-04 16:05:12|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:12|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "msg": "查询成功",
+  "count": 18,
+  "data": [
+    {
+      "id": 294,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 295,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "007",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 296,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "",
+      "status": "0"
+    },
+    {
+      "id": 297,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述",
+      "status": "0"
+    },
+    {
+      "id": 298,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述包含&^%$#....<>",
+      "status": "0"
+    },
+    {
+      "id": 299,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 300,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "002",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 301,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "003",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 302,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "004",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 303,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "005",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 304,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "006",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 305,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 306,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-10",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 307,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-06",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 308,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 309,
+      "name": "需求名字需求名字需求",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 310,
+      "name": "需求名字需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 313,
+      "name": "需求名字需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    }
+  ]
+}
+2022-05-04 16:05:12|INFO|Decor.py:44|OrderQueryTestCast正例查询...end...
+2022-05-04 16:05:12|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:12|INFO|Decor.py:25|OrderQueryTestCast正例查询:limit 30...begin...
+2022-05-04 16:05:12|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:12|INFO|Decor.py:40|page : all
+2022-05-04 16:05:12|INFO|Decor.py:40|limit : 30
+2022-05-04 16:05:12|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:12|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:12|INFO|KeywordApi.py:22|{'page': 1, 'limit': 30, 'order_dep': '001'}
+2022-05-04 16:05:12|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:12|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "msg": "查询成功",
+  "count": 20,
+  "data": [
+    {
+      "id": 287,
+      "name": "增加需求修改功能",
+      "type": "change",
+      "dep": "001",
+      "date": "2022-03-24",
+      "system": "refersys",
+      "desc": "test",
+      "status": "0"
+    },
+    {
+      "id": 288,
+      "name": "555",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-05",
+      "system": "111",
+      "desc": "123",
+      "status": "0"
+    },
+    {
+      "id": 289,
+      "name": "555",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-05",
+      "system": "111",
+      "desc": "123",
+      "status": "0"
+    },
+    {
+      "id": 290,
+      "name": "555",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-05",
+      "system": "111",
+      "desc": "123",
+      "status": "0"
+    },
+    {
+      "id": 291,
+      "name": "121241",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-28",
+      "system": "",
+      "desc": "wefwe",
+      "status": "0"
+    },
+    {
+      "id": 292,
+      "name": "121241",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-28",
+      "system": "关联系统",
+      "desc": "wefwe",
+      "status": "0"
+    },
+    {
+      "id": 293,
+      "name": "121241",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-28",
+      "system": "关联系统",
+      "desc": "wefwe",
+      "status": "0"
+    },
+    {
+      "id": 296,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "",
+      "status": "0"
+    },
+    {
+      "id": 297,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述",
+      "status": "0"
+    },
+    {
+      "id": 298,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述包含&^%$#....<>",
+      "status": "0"
+    },
+    {
+      "id": 299,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 305,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 306,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-10",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 307,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-06",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 308,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 309,
+      "name": "需求名字需求名字需求",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 310,
+      "name": "需求名字需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 311,
+      "name": "需求名字需求名字",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 312,
+      "name": "需求名字需求名字",
+      "type": "change",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 313,
+      "name": "需求名字需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    }
+  ]
+}
+2022-05-04 16:05:12|INFO|Decor.py:44|OrderQueryTestCast正例查询:limit 30...end...
+2022-05-04 16:05:12|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:12|INFO|Decor.py:25|OrderQueryTestCast正例查询:limit 50...begin...
+2022-05-04 16:05:12|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:12|INFO|Decor.py:40|page : all
+2022-05-04 16:05:12|INFO|Decor.py:40|limit : 50
+2022-05-04 16:05:12|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:12|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:12|INFO|KeywordApi.py:22|{'page': 1, 'limit': 50, 'order_dep': '001'}
+2022-05-04 16:05:12|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:12|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "msg": "查询成功",
+  "count": 20,
+  "data": [
+    {
+      "id": 287,
+      "name": "增加需求修改功能",
+      "type": "change",
+      "dep": "001",
+      "date": "2022-03-24",
+      "system": "refersys",
+      "desc": "test",
+      "status": "0"
+    },
+    {
+      "id": 288,
+      "name": "555",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-05",
+      "system": "111",
+      "desc": "123",
+      "status": "0"
+    },
+    {
+      "id": 289,
+      "name": "555",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-05",
+      "system": "111",
+      "desc": "123",
+      "status": "0"
+    },
+    {
+      "id": 290,
+      "name": "555",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-05",
+      "system": "111",
+      "desc": "123",
+      "status": "0"
+    },
+    {
+      "id": 291,
+      "name": "121241",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-28",
+      "system": "",
+      "desc": "wefwe",
+      "status": "0"
+    },
+    {
+      "id": 292,
+      "name": "121241",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-28",
+      "system": "关联系统",
+      "desc": "wefwe",
+      "status": "0"
+    },
+    {
+      "id": 293,
+      "name": "121241",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-28",
+      "system": "关联系统",
+      "desc": "wefwe",
+      "status": "0"
+    },
+    {
+      "id": 296,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "",
+      "status": "0"
+    },
+    {
+      "id": 297,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述",
+      "status": "0"
+    },
+    {
+      "id": 298,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述包含&^%$#....<>",
+      "status": "0"
+    },
+    {
+      "id": 299,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 305,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 306,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-10",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 307,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-06",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 308,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 309,
+      "name": "需求名字需求名字需求",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 310,
+      "name": "需求名字需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 311,
+      "name": "需求名字需求名字",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 312,
+      "name": "需求名字需求名字",
+      "type": "change",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 313,
+      "name": "需求名字需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    }
+  ]
+}
+2022-05-04 16:05:12|INFO|Decor.py:44|OrderQueryTestCast正例查询:limit 50...end...
+2022-05-04 16:05:12|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:12|INFO|Decor.py:25|OrderQueryTestCast正例查询:limit 100...begin...
+2022-05-04 16:05:12|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:12|INFO|Decor.py:40|page : all
+2022-05-04 16:05:12|INFO|Decor.py:40|limit : 100
+2022-05-04 16:05:12|INFO|KeywordApi.py:21|请求参数
+2022-05-04 16:05:12|INFO|KeywordApi.py:22|{'page': 1, 'limit': 100}
+2022-05-04 16:05:12|INFO|KeywordApi.py:36|响应码: 200
+2022-05-04 16:05:12|INFO|KeywordApi.py:49|{
+  "code": 0,
+  "msg": "查询成功",
+  "count": 27,
+  "data": [
+    {
+      "id": 287,
+      "name": "增加需求修改功能",
+      "type": "change",
+      "dep": "001",
+      "date": "2022-03-24",
+      "system": "refersys",
+      "desc": "test",
+      "status": "0"
+    },
+    {
+      "id": 288,
+      "name": "555",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-05",
+      "system": "111",
+      "desc": "123",
+      "status": "0"
+    },
+    {
+      "id": 289,
+      "name": "555",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-05",
+      "system": "111",
+      "desc": "123",
+      "status": "0"
+    },
+    {
+      "id": 290,
+      "name": "555",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-05",
+      "system": "111",
+      "desc": "123",
+      "status": "0"
+    },
+    {
+      "id": 291,
+      "name": "121241",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-28",
+      "system": "",
+      "desc": "wefwe",
+      "status": "0"
+    },
+    {
+      "id": 292,
+      "name": "121241",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-28",
+      "system": "关联系统",
+      "desc": "wefwe",
+      "status": "0"
+    },
+    {
+      "id": 293,
+      "name": "121241",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-04-28",
+      "system": "关联系统",
+      "desc": "wefwe",
+      "status": "0"
+    },
+    {
+      "id": 294,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 295,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "007",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 296,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "",
+      "status": "0"
+    },
+    {
+      "id": 297,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述这是一个超过200字的描述",
+      "status": "0"
+    },
+    {
+      "id": 298,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述包含&^%$#....<>",
+      "status": "0"
+    },
+    {
+      "id": 299,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 300,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "002",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 301,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "003",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 302,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "004",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 303,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "005",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 304,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "006",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 305,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 306,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-10",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 307,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-06",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 308,
+      "name": "需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 309,
+      "name": "需求名字需求名字需求",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 310,
+      "name": "需求名字需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 311,
+      "name": "需求名字需求名字",
+      "type": "new",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 312,
+      "name": "需求名字需求名字",
+      "type": "change",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    },
+    {
+      "id": 313,
+      "name": "需求名字需求名字",
+      "type": "upper",
+      "dep": "001",
+      "date": "2022-05-04",
+      "system": "关联sys",
+      "desc": "描述信息",
+      "status": "0"
+    }
+  ]
+}
+2022-05-04 16:05:12|INFO|Decor.py:44|OrderQueryTestCast正例查询:limit 100...end...
+2022-05-04 16:05:12|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:12|INFO|Decor.py:25|applySocketTestCase反例:未录入部门...begin...
+2022-05-04 16:05:12|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:12|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:12|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:12|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:12|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:12|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:12|INFO|KeywordApi.py:100|socket请求...begin...
+2022-05-04 16:05:12|INFO|KeywordApi.py:109|0000000193{"order_date": "2022-05-04", "order_name": "\u9700\u6c42\u540d\u5b57", "order_sys": "\u5173\u8054sys", "order_type": "upper", "order_desc": "\u63cf\u8ff0\u4fe1\u606f", "service": "createOrder"}
+2022-05-04 16:05:12|INFO|KeywordApi.py:116|响应报文长度:66
+2022-05-04 16:05:12|INFO|KeywordApi.py:123|{'code': '500005', 'msg': '需求部门必输.'}
+2022-05-04 16:05:12|INFO|KeywordApi.py:127|socket请求...end...
+2022-05-04 16:05:12|INFO|Decor.py:44|applySocketTestCase反例:未录入部门...end...
+2022-05-04 16:05:12|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:12|INFO|Decor.py:25|applySocketTestCase日期格式错误...begin...
+2022-05-04 16:05:12|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:12|INFO|Decor.py:40|order_dep : 002
+2022-05-04 16:05:12|INFO|Decor.py:40|order_date : 2022/05/04
+2022-05-04 16:05:12|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:12|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:12|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:12|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:12|INFO|KeywordApi.py:100|socket请求...begin...
+2022-05-04 16:05:12|INFO|KeywordApi.py:109|0000000213{"order_dep": "002", "order_date": "2022/05/04", "order_name": "\u9700\u6c42\u540d\u5b57", "order_sys": "\u5173\u8054sys", "order_type": "upper", "order_desc": "\u63cf\u8ff0\u4fe1\u606f", "service": "createOrder"}
+2022-05-04 16:05:12|INFO|KeywordApi.py:116|响应报文长度:71
+2022-05-04 16:05:12|INFO|KeywordApi.py:123|{'code': '999999', 'msg': '(1049, "Unknown database \'testproject\'")'}
+2022-05-04 16:05:12|INFO|KeywordApi.py:127|socket请求...end...
+2022-05-04 16:05:12|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:12|INFO|Decor.py:25|applySocketTestCase错误的service参数...begin...
+2022-05-04 16:05:12|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:12|INFO|Decor.py:40|service : createOrder1
+2022-05-04 16:05:12|INFO|Decor.py:40|order_dep : 002
+2022-05-04 16:05:12|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:12|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:12|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:12|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:12|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:12|INFO|KeywordApi.py:100|socket请求...begin...
+2022-05-04 16:05:12|INFO|KeywordApi.py:109|0000000214{"service": "createOrder1", "order_dep": "002", "order_date": "2022-05-04", "order_name": "\u9700\u6c42\u540d\u5b57", "order_sys": "\u5173\u8054sys", "order_type": "upper", "order_desc": "\u63cf\u8ff0\u4fe1\u606f"}
+2022-05-04 16:05:12|INFO|KeywordApi.py:116|响应报文长度:67
+2022-05-04 16:05:12|INFO|KeywordApi.py:123|{'code': '500003', 'msg': '错误的service参数.'}
+2022-05-04 16:05:12|INFO|KeywordApi.py:127|socket请求...end...
+2022-05-04 16:05:12|INFO|Decor.py:44|applySocketTestCase错误的service参数...end...
+2022-05-04 16:05:12|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:12|INFO|Decor.py:25|applySocketTestCase部门测试...begin...
+2022-05-04 16:05:12|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:12|INFO|Decor.py:40|order_dep : 001
+2022-05-04 16:05:12|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:12|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:12|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:12|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:12|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:12|INFO|KeywordApi.py:100|socket请求...begin...
+2022-05-04 16:05:12|INFO|KeywordApi.py:109|0000000213{"order_dep": "001", "order_date": "2022-05-04", "order_name": "\u9700\u6c42\u540d\u5b57", "order_sys": "\u5173\u8054sys", "order_type": "upper", "order_desc": "\u63cf\u8ff0\u4fe1\u606f", "service": "createOrder"}
+2022-05-04 16:05:12|INFO|KeywordApi.py:116|响应报文长度:71
+2022-05-04 16:05:12|INFO|KeywordApi.py:123|{'code': '999999', 'msg': '(1049, "Unknown database \'testproject\'")'}
+2022-05-04 16:05:12|INFO|KeywordApi.py:127|socket请求...end...
+2022-05-04 16:05:12|INFO|Decor.py:22|--------------------------------------------------
+2022-05-04 16:05:12|INFO|Decor.py:25|applySocketTestCase不同的部门测试...begin...
+2022-05-04 16:05:12|INFO|Decor.py:29|入口参数:
+2022-05-04 16:05:12|INFO|Decor.py:40|order_dep : 002
+2022-05-04 16:05:12|INFO|Decor.py:40|order_date : 2022-05-04
+2022-05-04 16:05:12|INFO|Decor.py:40|order_name : 需求名字
+2022-05-04 16:05:12|INFO|Decor.py:40|order_sys : 关联sys
+2022-05-04 16:05:12|INFO|Decor.py:40|order_type : upper
+2022-05-04 16:05:12|INFO|Decor.py:40|order_desc : 描述信息
+2022-05-04 16:05:12|INFO|KeywordApi.py:100|socket请求...begin...
+2022-05-04 16:05:12|INFO|KeywordApi.py:109|0000000213{"order_dep": "002", "order_date": "2022-05-04", "order_name": "\u9700\u6c42\u540d\u5b57", "order_sys": "\u5173\u8054sys", "order_type": "upper", "order_desc": "\u63cf\u8ff0\u4fe1\u606f", "service": "createOrder"}
+2022-05-04 16:05:12|INFO|KeywordApi.py:116|响应报文长度:71
+2022-05-04 16:05:12|INFO|KeywordApi.py:123|{'code': '999999', 'msg': '(1049, "Unknown database \'testproject\'")'}
+2022-05-04 16:05:12|INFO|KeywordApi.py:127|socket请求...end...
+2022-05-04 16:05:12|INFO|DataBaseApi.py:37|数据清理完成.

@@ -1,0 +1,11 @@
+-
+  description: '网页展示内容测试'
+  data:
+    order_dep: '001'
+    order_date: '<datetime.datetime.now().strftime("%Y-%m-%d")>'
+    order_name: '需求名字'
+    order_sys: '关联sys'
+    order_type: 'upper'
+    order_desc: '描述信息'
+  assert:
+    assert_dep: '人力部门'

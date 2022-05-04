@@ -33,7 +33,7 @@ def case_decor(_func):
             # 数据计算和加工
             # 第一种方式 字符串判断表达式
 
-            if type(datas[key]) == 'str' and datas[key].startswith('<') and datas[key].endswith('>'):
+            if type(datas[key]) == str and datas[key].startswith('<') and datas[key].endswith('>'):
                 datas[key] = eval(datas[key][1:-1])
 
             print(key, ":", datas[key])
