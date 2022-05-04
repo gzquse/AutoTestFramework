@@ -1,12 +1,21 @@
 -
-  username: admin
-  password: 123456
-  code: 0
+  description: '正例'
+  data:
+    username: 'admin'
+    pwd: '123456'
+  assert:
+    code: 0
 -
-  username: sniper
-  password: 111111
-  code: 0
+  description: "正例2"
+  data:
+    username: 'sniper'
+    pwd: '111111'
+  assert:
+    code: 0
 -
-  username: sniper
-  password: 123
-  code: 11
+  description: '反例：错误的用户名或密码'
+  data:
+    username: 'sniper'
+    pwd: '123'
+  assert:
+    code: 11
