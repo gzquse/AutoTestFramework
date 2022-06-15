@@ -1,9 +1,4 @@
-# -*- coding:utf-8 -*-
-"""
-模块描述:
-  需求申请的测试代码
-作者：Sniper.ZH
-"""
+
 import requests
 
 # 先登陆

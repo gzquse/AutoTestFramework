@@ -1,9 +1,4 @@
-# -*- coding:utf-8 -*-
-"""
-模块描述:
-  Socket接口，需求申请用例
-作者：Sniper.ZH
-"""
+
 import unittest
 from ddt import ddt, file_data
 import api.KeywordApi as kwa

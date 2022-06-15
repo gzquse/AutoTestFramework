@@ -1,10 +1,4 @@
-# -*- coding:utf-8 -*-
-"""
-模块描述:
- 基于Socket的私有协议例子
- Socket 网络编程 TCP
-作者：Sniper.ZH
-"""
+
 import datetime
 import socket
 import json

@@ -1,9 +1,4 @@
-# -*- coding:utf-8 -*-
-"""
-模块描述:
 
-作者：Sniper.ZH
-"""
 import commons.Logger
 from commons.Config import get_config
 from commons.Logger import logger

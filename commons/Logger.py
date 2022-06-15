@@ -1,9 +1,4 @@
-# -*- coding:utf-8 -*-
-"""
-模块描述:
-  日志收集模块
-作者：Sniper.ZH
-"""
+
 import logging.config
 import os
 

@@ -1,9 +1,3 @@
-# -*- coding:utf-8 -*-
-"""
-模块描述:
-  关键字驱动方法的类
-作者：Sniper.ZH
-"""
 import json
 import json as json_lib
 import socket

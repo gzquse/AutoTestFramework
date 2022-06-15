@@ -1,12 +1,4 @@
-# -*- coding:utf-8 -*-
-"""
-模块描述:
-  用户登陆接口测试
-  # 1.f12开发者工具
-  # 2.fiddler抓包工具
-  # 3.接口文档
-作者：Sniper.ZH
-"""
+
 import requests
 
 # 线性代码

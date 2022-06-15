@@ -1,9 +1,4 @@
-# -*- coding:utf-8 -*-
-"""
-模块描述:
 
-作者：Sniper.ZH
-"""
 import unittest
 from ddt import ddt, file_data
 from commons.Decor import case_decor

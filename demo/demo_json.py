@@ -1,9 +1,4 @@
-# -*- coding:utf-8 -*-
-"""
-模块描述:
-  需求申请查询api接口
-作者：Sniper.ZH
-"""
+
 import json
 
 import requests

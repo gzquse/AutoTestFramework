@@ -1,9 +1,4 @@
-# -*- coding:utf-8 -*-
-"""
-模块描述:
-  装饰器定义模块
-作者：Sniper.ZH
-"""
+
 import functools
 import json
 import datetime

@@ -2211,3 +2211,7 @@
 2022-05-04 16:05:12|INFO|KeywordApi.py:123|{'code': '999999', 'msg': '(1049, "Unknown database \'testproject\'")'}
 2022-05-04 16:05:12|INFO|KeywordApi.py:127|socket请求...end...
 2022-05-04 16:05:12|INFO|DataBaseApi.py:37|数据清理完成.
+2022-06-15 10:06:39|INFO|KeywordApi.py:21|请求参数
+2022-06-15 10:06:39|INFO|KeywordApi.py:22|{'username': 'admin', 'pwd': '123456', 'randomCode': '1234'}
+2022-06-15 10:12:23|INFO|KeywordApi.py:21|请求参数
+2022-06-15 10:12:23|INFO|KeywordApi.py:22|{'username': 'admin', 'pwd': '123456', 'randomCode': '1234'}

@@ -1,12 +1,4 @@
-# -*- coding:utf-8 -*-
-"""
-模块描述:
-  查询展示流程测试
-  1：登陆
-  2：新增需求单
-  3：html查询结果比较
-作者：Sniper.ZH
-"""
+
 import datetime
 import unittest
 from ddt import ddt, file_data

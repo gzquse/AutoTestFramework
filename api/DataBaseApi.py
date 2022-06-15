@@ -1,9 +1,3 @@
-# -*- coding:utf-8 -*-
-"""
-模块描述:
-  数据库操作类
-作者：Sniper.ZH
-"""
 import pymysql
 import commons.Config as config
 from commons.Logger import logger

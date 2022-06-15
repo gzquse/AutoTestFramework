@@ -1,9 +1,4 @@
-# -*- coding:utf-8 -*-
-"""
-模块描述:
-  配置文件、平台参数
-作者：Sniper.ZH
-"""
+
 import configparser
 import os
 

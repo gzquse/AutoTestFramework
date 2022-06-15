@@ -1,9 +1,4 @@
-# -*- coding:utf-8 -*-
-"""
-模块描述:
-  需求申请测试用例
-作者：Sniper.ZH
-"""
+
 import json
 import unittest
 from ddt import ddt, file_data
